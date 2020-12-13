@@ -10,13 +10,16 @@
     'in green and negative change in red
 
 Sub VBA_Homework()
+'What needs to be defined with DIM?
+
+
 
 'label the additional columns (ticker, yearly change, percent change, and total stock volumne)
-'need to name the cells based on the first sheet, or all sheets?
+'need to name the cells on each sheet
 thisworkbook.sheets.range(I2).value=Ticker
 thisworkbook.sheets.range(J2).value=Yearly Change
 thisworkbook.sheets.range(k2).value=Percent Change
-thisworkbook.sheets.range(l2).value=Total Stock Value
+thisworkbook.sheets.range(L2).value=Total Stock Value
 
 
 

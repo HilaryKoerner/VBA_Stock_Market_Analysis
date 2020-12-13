@@ -1,0 +1,57 @@
+Sub GradeFormatter()
+
+  range("b2").value
+  range("c2").integer
+  range("d2").value
+  
+
+
+
+  'if grade in range("b2") is >=90, then format box range("c2) to color Green
+    if range("b2").value>=90 then
+        range("c3").value="pass"
+        range("c3").interior.colorindex=4
+        range("c3").value="A"
+        
+  'if grade in range("b2") is >=90, then format box range("c2) to "Pass"
+  'if grade in range("b2") is >=90, then format box range("d2) to "A"
+  
+  'if grade in range("b2") is >=80, then format box range("c2) to color Green
+  'if grade in range("b2") is >=80, then format box range("c2) to "Pass"
+  'if grade in range("b2") is >=80, then format box range("d2) to "B"
+  
+  'if grade in range("b2") is >=70, then format box range("c2) to color Yellow
+  'if grade in range("b2") is >=70, then format box range("c2) to "Warning"
+  'if grade in range("b2") is >=70, then format box range("d2) to "C"
+  
+  'if grade in range("b2") is <60, then format box range("c2) to color Red
+  'if grade in range("b2") is <60, then format box range("c2) to "Fail"
+  'if grade in range("b2") is <60, then format box range("d2) to "F"
+  
+  
+  ' Set the Font color to Red
+  Range("A1").Font.ColorIndex = 3
+
+  ' Set the Cell Colors to Red
+  Range("A2:A5").Interior.ColorIndex = 3
+
+  ' Set the Font Color to Green
+  Range("B1").Font.ColorIndex = 4
+
+  ' Set the Cell Colors to Green
+  Range("B2:B5").Interior.ColorIndex = 4
+
+  ' Set the Color Index to Blue
+  Range("C1").Font.ColorIndex = 5
+
+  ' Set the Cell Colors to Blue
+  Range("C2:C5").Interior.ColorIndex = 5
+
+  ' Set the Color Index to Magenta
+  Range("D1").Font.ColorIndex = 7
+
+  ' Set the Cell Colors to Magenta
+  Range("D2:D5").Interior.ColorIndex = 7
+
+  ' See this website for color guides: http://dmcritchie.mvps.org/excel/colors.htm
+End Sub
