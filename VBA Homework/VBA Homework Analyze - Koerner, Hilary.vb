@@ -26,7 +26,7 @@ Sub StockData()
         Dim High As Double
         Dim low As Double
         Dim Closing As Double
-        Dim Volume As LongLong
+        Dim Volume As Double
         Dim percent As Double
         Dim change As Double
         
