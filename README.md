@@ -1,4 +1,4 @@
-# VBA Homework
+# VBA Stockmarket Analysis
 
 Using VBA, I analyzed stock market data that spanned three years (2014-2016). To complete this assignment, I created a script that could loop through a small subset of data and then tested the script on the three years.
 
